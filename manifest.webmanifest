@@ -1,9 +1,7 @@
 {
-  "name": "Mr Coxall's App",
-  "short_name": "Mr Coxall's App",
-  "description": "Github Page for Mr Coxall's App",
-  "scope": "/ICS2O-PWA-Test/",
-  "start_url": "/ICS2O-PWA-Test/",
+  "name": "Lucas Tyman's Space Aliens",
+  "short_name": "Lucas Tyman's Space Aliens",
+  "description": "Github Page for Space Aliens",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
