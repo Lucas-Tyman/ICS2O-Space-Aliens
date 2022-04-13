@@ -1,0 +1,21 @@
+/* Created by: Mr. Coxall
+* Created on: Sep 2020
+* This file contains the CSS for index.html
+*/
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+p {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
+}
