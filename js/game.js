@@ -8,18 +8,18 @@ const config = {
   width: 1920,
   height: 1080,
   physics: {
-    default: 'arcade',
+    default: "arcade",
     arcade: {
-      debug: true
-    }
+      debug: true,
+    },
   },
   // set background colour
   backgroundColor: 0x5f6e7a,
   scale: {
     mode: Phaser.Scale.FIT,
     // we place it in the middle of the page.
-    autoCenter: Phaser.Scale.CENTER_BOTH
-  }
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+  },
 }
 
 const game = new Phaser.Game(config)
