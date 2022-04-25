@@ -3,6 +3,12 @@
 // Created on: Apr 2022
 // This file contains the JS functions for index.html
 
+import SplashScene from './splashScene.js'
+
+// Our game scene
+const splashScene = new SplashScene()
+
+//* Game scene */
 const config = {
   type: Phaser.AUTO,
   width: 1920,
@@ -23,4 +29,10 @@ const config = {
 }
 
 const game = new Phaser.Game(config)
-console.log(game)
+
+// load scences
+// NOTE: remember any "key" is gobal and CAN NOT be reused
+game.scene.add('splashScene', splashScene)
+
+// start title
+game.scene.start('splashScene')
