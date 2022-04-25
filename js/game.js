@@ -3,7 +3,7 @@
 // Created on: Apr 2022
 // This file contains the JS functions for index.html
 
-import SplashScene from './splashScene.js'
+import SplashScene from "./splashScene.js"
 
 // Our game scene
 const splashScene = new SplashScene()
@@ -32,7 +32,7 @@ const game = new Phaser.Game(config)
 
 // load scences
 // NOTE: remember any "key" is gobal and CAN NOT be reused
-game.scene.add('splashScene', splashScene)
+game.scene.add("splashScene", splashScene)
 
 // start title
-game.scene.start('splashScene')
+game.scene.start("splashScene")
