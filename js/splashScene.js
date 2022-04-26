@@ -31,7 +31,7 @@ class SplashScene extends Phaser.Scene {
   preload() {
     console.log("Splash Scene")
   }
-  
+
   /**
    * Can be defined on your own Scenes.
    * Use it to create your game objects.
