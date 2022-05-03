@@ -13,7 +13,9 @@ const splashScene = new SplashScene()
 const titleScene = new TitleScene()
 const menuScene = new MenuScene()
 
-//* Game scene */
+/**
+ * Start Phaser Game.
+ */
 const config = {
   type: Phaser.AUTO,
   width: 1920,
@@ -34,6 +36,7 @@ const config = {
 }
 
 const game = new Phaser.Game(config)
+// console.log(game)
 
 // load scences
 // NOTE: remember any "key" is gobal and CAN NOT be reused
@@ -41,5 +44,5 @@ game.scene.add("splashScene", splashScene)
 game.scene.add("titleScene", titleScene)
 game.scene.add("menuScene", menuScene)
 
-// start title
+// the start scene
 game.scene.start("splashScene")

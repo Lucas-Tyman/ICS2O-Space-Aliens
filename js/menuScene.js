@@ -4,19 +4,17 @@
 // This is the Menu Scene
 
 /**
- * This class is the meun Scene
+ * This class is the menu Scene.
  */
 class MenuScene extends Phaser.Scene {
   /**
-   * This method is the constructuor.
+   * This method is the construtor.
    */
-  constructor() {
+  construtor() {
     super({ key: "menuScene" })
   }
 
   /**
-
-.
    * Can be defined on your own Scenes.
    * This method is called by the Scene Manager when scene starts,
    *   before preload() and create().
