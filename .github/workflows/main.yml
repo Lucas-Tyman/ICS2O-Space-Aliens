@@ -14,12 +14,6 @@ jobs:
     steps:
       - name: Check out Git repository
         uses: actions/checkout@master
-
-      - name: Prettify code
-        uses: mr-coxall/prettier_action@main
-        with:
-          # This part is also where you can pass other options, for example:
-          prettier_options: --write **/*.{js,md}
           
       - name: Run GitHub Super Linter
         uses: github/super-linter@main
