@@ -16,7 +16,7 @@ class TitleScene extends Phaser.Scene {
     this.titleSceneBackGroundImage = null
     this.titleSceneText = null
     this.titleSceneTextStyle = {
-      font: 200px Times",
+      font: "200px Times",
       fill: "#fde4b9",
       align: "center",
     }
