@@ -14,6 +14,12 @@ class TitleScene extends Phaser.Scene {
     super({ key: "titleScene" })
 
     this.titleSceneBackGroundImage = null
+    this.titleSceneText = null
+    this.titleSceneTextStyle = {
+      font: 200px Times",
+      fill: "#fde4b9",
+      align: "center",
+    }
   }
 
   /**
@@ -49,12 +55,7 @@ class TitleScene extends Phaser.Scene {
 
     this.titleSceneText -
       this.add
-        .text(
-          1920 / 2,
-          1080 / 2 + 350,
-          "Space Aliens",
-          this.titleSceneTextStyle
-        )
+        .text(1920 / 2, 1080 / 2 + 350,"Space Aliens", this.titleSceneTextStyle)
         .setOrigin(0.5)
   }
 
