@@ -1,16 +1,16 @@
 /* global Phaser */
 // Created by: Lucas Tyman
 // Created on: Apr 2022
-// This is the Menu Scene
+// This is the Title Scene
 
 /**
- * This class is the menu Scene.
+ * This class is the Title Scene
  */
 class MenuScene extends Phaser.Scene {
   /**
-   * This method is the construtor.
+   * This method is the constructuor.
    */
-  construtor() {
+  constructor() {
     super({ key: "menuScene" })
   }
 
@@ -29,7 +29,7 @@ class MenuScene extends Phaser.Scene {
    * Use it to load assets.
    */
   preload() {
-    console.log("Menu Scene")
+    console.log("MenuScene ")
   }
 
   /**
@@ -38,7 +38,7 @@ class MenuScene extends Phaser.Scene {
    * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
    */
   create(data) {
-    // pass
+
   }
 
   /**
